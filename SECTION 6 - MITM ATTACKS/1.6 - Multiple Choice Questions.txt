@@ -1,0 +1,28 @@
+### Man-in-the-Middle (MitM) Attacks ###
+Multiple Choice Questions (MCQs)
+Question 1: What is the primary goal of a Man-in-the-Middle (MitM) attack?
+
+A) To infect a device with malware.
+B) To intercept and alter communication between two parties.
+C) To disrupt the availability of a website.
+D) To spread viruses through email.
+
+Answer: B) To intercept and alter communication between two parties.
+
+Question 2: Which of the following can help protect against MitM attacks when using a website?
+
+A) Use unencrypted HTTP instead of HTTPS.
+B) Check for a padlock symbol and ensure the site uses HTTPS.
+C) Disable your antivirus software to increase connection speed.
+D) Share login credentials freely to avoid forgetting them.
+
+Answer: B) Check for a padlock symbol and ensure the site uses HTTPS.
+
+Question 3: Which of the following is a potential result of a Man-in-the-Middle attack?
+
+A) A server overload due to too many requests.
+B) Unauthorized access to private data or accounts.
+C) Data being permanently lost from a device.
+D) Unsolicited pop-up ads appearing on your device.
+
+Answer: B) Unauthorized access to private data or accounts.
