@@ -1,0 +1,30 @@
+### Phishing and Social Engineering ###
+Multiple Choice Questions (MCQs)
+Question 1: Which of the following is a sign of a phishing email?
+
+A) The email contains a personal greeting, such as “Dear [Your Name].”
+B) The email includes a request for urgent action, like “Your account will be suspended unless you act now!”
+C) The email is from an official, well-known company website.
+D) The email contains only relevant, personalized information without any errors.
+
+Answer: B) The email includes a request for urgent action, like “Your account will be suspended unless you act now!”
+
+Question 2: What is a common tactic used in social engineering attacks?
+
+A) Offering secure encryption for files.
+B) Manipulating individuals into divulging confidential information by exploiting trust.
+C) Installing antivirus software without the user’s consent.
+D) Providing legitimate technical support from a recognized provider.
+
+Answer: B) Manipulating individuals into divulging confidential information by exploiting trust.
+
+Question 3: Which of the following is the best way to protect yourself from phishing and social engineering attacks?
+
+A) Ignore any suspicious emails or calls and delete them immediately.
+B) Share passwords only when asked in official-looking emails.
+C) Always verify the source before clicking on links or providing sensitive information.
+D) Install software that blocks all incoming emails.
+
+Answer: C) Always verify the source before clicking on links or providing sensitive information.
+
+
