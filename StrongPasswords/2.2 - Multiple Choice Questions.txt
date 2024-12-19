@@ -1,0 +1,31 @@
+### Creating Strong Passwords ###
+Multiple Choice Questions (MCQs)
+Question 1:
+What is the minimum recommended length for a strong password?
+
+A) 6 characters
+B) 8 characters
+C) 12 characters
+D) 16 characters
+
+Answer: C) 12 characters
+
+Question 2:
+Which of the following is a characteristic of a strong password?
+
+A) It is based on a dictionary word like “password” or “letmein.”
+B) It contains a combination of uppercase letters, lowercase letters, numbers, and special characters.
+C) It uses personal information like your birthdate or your pet’s name.
+D) It is exactly 8 characters long and easy to remember.
+
+Answer: B) It contains a combination of uppercase letters, lowercase letters, numbers, and special characters.
+
+Question 3:
+What is the purpose of using a password manager?
+
+A) To store your passwords in a secure location and generate strong passwords.
+B) To help you remember your passwords without using strong ones.
+C) To automatically share your passwords with others for convenience.
+D) To create a new password for every website you visit without any need for security.
+
+Answer: A) To store your passwords in a secure location and generate strong passwords.
