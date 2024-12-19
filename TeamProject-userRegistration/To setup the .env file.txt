@@ -1,5 +1,0 @@
-To setup the .env file to host the mongo URI.
-
-MONGODB_URI="mongodb+srv://admin1:pIYBY8f0O3rhv67B@cluster0.u0bfh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" 
-
-save file as .env use for json 
