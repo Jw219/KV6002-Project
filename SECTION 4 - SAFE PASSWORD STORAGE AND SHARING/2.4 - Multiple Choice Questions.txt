@@ -1,0 +1,32 @@
+### Safe Password Storage and Sharing Practices ###
+Multiple Choice Questions (MCQs)
+Question 1: What is the primary benefit of using a password manager?
+
+A) They help you create weak, easy-to-remember passwords.
+B) They store and encrypt your passwords securely, making them easy to access.
+C) They allow you to share passwords via email safely.
+D) They automatically change your passwords every month.
+
+Answer: B) They store and encrypt your passwords securely, making them easy to access.
+
+
+Question 2: Which of the following is an insecure method for sharing passwords?
+
+A) Using a password manager to share encrypted passwords.
+B) Sharing a password via email.
+C) Sharing a password through an encrypted messaging app.
+D) Using a secure file-sharing service.
+
+Answer: B) Sharing a password via email.
+
+
+Question 3: What is the main purpose of encrypting passwords?
+
+A) To make passwords harder to guess.
+B) To prevent passwords from being read if the storage device is compromised.
+C) To allow passwords to be shared easily.
+D) To ensure passwords can be recovered if forgotten.
+
+Answer: B) To prevent passwords from being read if the storage device is compromised.
+
+
