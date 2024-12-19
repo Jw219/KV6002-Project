@@ -1,0 +1,28 @@
+### Denial-of-Service (DoS) Attacks ###
+Multiple Choice Questions (MCQs)
+Question 1: What is the primary goal of a Denial of Service (DoS) attack?
+
+A) To steal sensitive information from the target system.
+B) To cause the target system or website to become unavailable to users.
+C) To install malware on the target device.
+D) To spy on the target system’s communications.
+
+Answer: B) To cause the target system or website to become unavailable to users.
+
+Question 2: Which of the following is a common method used in a SYN flood attack?
+
+A) Overloading a server with high numbers of HTTP requests.
+B) Exploiting the TCP handshake process by sending numerous SYN requests without completing the connection.
+C) Sending massive amounts of data to overwhelm the bandwidth.
+D) Disrupting DNS services by sending false requests.
+
+Answer: B) Exploiting the TCP handshake process by sending numerous SYN requests without completing the connection.
+
+Question 3: Which of the following is an effective way to protect against a DDoS attack?
+
+A) Disable firewalls to improve server performance.
+B) Use a Content Delivery Network (CDN) to distribute traffic.
+C) Ensure all servers are connected to the same network.
+D) Decrease the security of your website to allow faster access.
+
+Answer: B) Use a Content Delivery Network (CDN) to distribute traffic.
