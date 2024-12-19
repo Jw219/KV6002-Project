@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management</title>
+  <link rel="stylesheet" href="userstyles.css">
+</head>
+<body>
+  <!-- net ninja link in the top left corner -->
+  <a href="http://localhost:5001" class="brand-link">NET NINJA</a>
+
+  <div class="user-management">
+    <h2>Manage Your Account</h2>
+
+    <!-- manage your account message" -->
+    <p class="info-message">You can update or delete your account.</p>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email">
+      <!-- email requirment message -->
+      <p class="email-message">Your email is required.</p>
+    </div>
+
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" placeholder="Enter new first name">
+    </div>
+
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" placeholder="Enter new last name">
+    </div>
+
+    <div class="form-group">
+      <label for="password">New Password</label>
+      <input type="password" id="password" placeholder="Enter new password">
+    </div>
+
+    <button id="updateButton">Update Account</button>
+    <button id="deleteButton">Delete Account</button>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="userapp.js"></script>
+</body>
+</html>
