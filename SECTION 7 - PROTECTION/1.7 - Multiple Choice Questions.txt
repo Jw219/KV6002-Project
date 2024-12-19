@@ -1,0 +1,28 @@
+### Protecting Against Cyber Security Threats ###
+Multiple Choice Questions (MCQs)
+Question 1: What is one of the most effective ways to prevent unauthorized access to your accounts?
+
+A) Using the same password for all accounts.
+B) Enabling Multi-Factor Authentication (MFA).
+C) Sharing your passwords with trusted friends.
+D) Deleting all backup data.
+
+Answer: B) Enabling Multi-Factor Authentication (MFA).
+
+Question 2: How can regular software updates help protect against cybersecurity threats?
+
+A) They help improve the user interface of applications.
+B) They patch security vulnerabilities that attackers can exploit.
+C) They reduce the number of advertisements on websites.
+D) They remove all unnecessary files from the system.
+
+Answer: B) They patch security vulnerabilities that attackers can exploit.
+
+Question 3: What should you do if you receive an unsolicited email asking for sensitive information?
+
+A) Respond immediately with the requested information.
+B) Delete the email and ignore it.
+C) Open any attachments to see what they contain.
+D) Be cautious and verify the sender before taking any action.
+
+Answer: D) Be cautious and verify the sender before taking any action.
