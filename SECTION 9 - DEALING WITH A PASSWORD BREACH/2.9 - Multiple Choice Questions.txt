@@ -1,0 +1,28 @@
+### Dealing with a Password Breach ###
+Multiple Choice Questions (MCQs)
+Question 1: What is the first thing you should do if you suspect your password has been breached?
+
+A) Ignore the breach and continue using the account.
+B) Change your password immediately to prevent further unauthorized access.
+C) Contact your bank first.
+D) Wait for the company to notify you of any breach.
+
+Answer: B) Change your password immediately to prevent further unauthorized access.
+
+Question 2: Why is it important to enable two-factor authentication (2FA) after a password breach?
+
+A) 2FA ensures that your password is always strong.
+B) 2FA requires an additional verification method, preventing unauthorized access even if your password is compromised.
+C) 2FA will automatically reset your password.
+D) 2FA prevents attackers from using your password even if it’s weak.
+
+Answer: B) 2FA requires an additional verification method, preventing unauthorized access even if your password is compromised.
+
+Question 3: After your password is breached, which of the following is the best practice for securing your accounts?
+
+A) Reuse the same password for all your accounts.
+B) Update your account recovery options, like email and phone number, and review connected devices.
+C) Only change your password and ignore all other security settings.
+D) Share your new password with others to ensure they have access.
+
+Answer: B) Update your account recovery options, like email and phone number, and review connected devices.
