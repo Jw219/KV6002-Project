@@ -1,0 +1,28 @@
+### Ransomware ###
+Multiple Choice Questions (MCQs)
+Question 1: What is the main goal of a ransomware attack?
+
+A) To steal passwords and account information.
+B) To encrypt files and demand payment for their decryption.
+C) To overload a system with traffic and cause an outage.
+D) To steal physical hardware from the target device.
+
+Answer: B) To encrypt files and demand payment for their decryption.
+
+Question 2: Which of the following is a common way that ransomware spreads?
+
+A) Through secure network connections.
+B) Via phishing emails or malicious attachments.
+C) By using encrypted USB drives.
+D) Through software updates and patches.
+
+Answer: B) Via phishing emails or malicious attachments.
+
+Question 3: What is the best defense against ransomware?
+
+A) Always pay the ransom to guarantee your files will be restored.
+B) Keep your software, systems, and security patches up to date, and regularly back up your data.
+C) Disable antivirus software to improve system performance.
+D) Open all email attachments without checking the sender.
+
+Answer: B) Keep your software, systems, and security patches up to date, and regularly back up your data.
