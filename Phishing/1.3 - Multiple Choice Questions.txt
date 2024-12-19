@@ -1,0 +1,29 @@
+### Phishing ###
+Multiple Choice Questions (MCQs)
+Question 1: Which of the following is a common tactic used in phishing attacks?
+
+A) Sending emails with attachments that contain malware.
+B) Impersonating a trusted organization to steal sensitive information.
+C) Using fake social media accounts to promote products.
+D) Offering free software downloads to unsuspecting users.
+
+Answer: B) Impersonating a trusted organization to steal sensitive information.
+
+Question 2: What is the primary goal of a phishing attack?
+
+A) To steal your computer’s hardware.
+B) To trick victims into providing sensitive personal or financial information.
+C) To disable a victim’s device permanently.
+D) To send fake social media messages to your contacts.
+
+Answer: B) To trick victims into providing sensitive personal or financial information.
+
+Question 3: How can you protect yourself from phishing attacks?
+
+A) Always click on email links to verify messages.
+B) Use multi-factor authentication (MFA) for your online accounts.
+C) Disable your email account’s spam filters.
+D) Open all unsolicited email attachments to check for malware.
+
+Answer: B) Use multi-factor authentication (MFA) for your online accounts.
+
