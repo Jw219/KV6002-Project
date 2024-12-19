@@ -1,0 +1,26 @@
+### Password MGMT for Organisations ###
+Multiple Choice Questions (MCQs)
+Question 1: What is the main benefit of using a password manager in an organization?
+A) It automatically resets employee passwords every week.
+B) It stores and encrypts passwords, making it easier to manage and share securely.
+C) It generates only one password for all accounts.
+D) It reduces the need for two-factor authentication (2FA).
+
+Answer: B) It stores and encrypts passwords, making it easier to manage and share securely.
+
+Question 2: Why should organizations enforce the use of two-factor authentication (2FA)?
+A) To ensure that employees don’t forget their passwords.
+B) To add an extra layer of security in case passwords are compromised.
+C) To make passwords easier to remember.
+D) To eliminate the need for strong passwords.
+
+Answer: B) To add an extra layer of security in case passwords are compromised.
+
+Question 3: What is one common risk associated with password sharing in organizations?
+
+A) Password sharing reduces the need for password updates.
+B) Password sharing can expose sensitive data if the passwords are shared through insecure channels (e.g., email).
+C) Password sharing improves security by allowing more people to access accounts.
+D) Password sharing ensures employees remember their passwords more easily.
+
+Answer: B) Password sharing can expose sensitive data if the passwords are shared through insecure channels (e.g., email).
