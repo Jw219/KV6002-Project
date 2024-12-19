@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; 
+}
+
+body {
+    color: #333;
+    background: radial-gradient(circle, #101820 60%, #0d1724);
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-image: url('backgr.png'); 
+    background-size: cover;
+    background-attachment: fixed; 
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+    top: 0; 
+    z-index: 1000; 
+    box-shadow: none; 
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    align-content: left;
+}
+
+.logo-img {
+    width: 60px; 
+    height: auto; 
+    margin-right: 1rem; 
+    vertical-align: middle; 
+}
+
+.header .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 1rem; 
+}
+
+.auth-buttons .btn,
+.dashboard .btn {
+    display: inline-block; /* for alignment */
+    text-align: center;
+    padding: 0.5rem 1.5rem; 
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem; 
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Primary Button Glow Effect */
+.btn-primary {
+    background: linear-gradient(90deg, #0c5ed1, #00d4ff);
+    color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.5), inset 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    animation: glow 2s infinite alternate;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.8), inset 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); 
+}
+
+/* Primary Button Glow Effect */
+.btn-settings  {
+    background: linear-gradient(90deg, #0c5ed1, #00d4ff);
+    color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.5), inset 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    animation: glow 2s infinite alternate;
+    float: right;
+}
+
+.btn-settings:hover {
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.8), inset 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); 
+}
+
+/* Secondary Button Glow Effect */
+.btn-secondary {
+    background: linear-gradient(90deg, #343a46, #5a5e65);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3), inset 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    animation: glow 2s infinite alternate;
+}
+
+.btn-secondary:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), inset 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+/* Glowing animation */
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+    }
+    to {
+        box-shadow: 0 0 20px rgba(0, 212, 255, 1);
+    }
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.hero-left {
+    position: absolute;
+    top: 28%;
+    left: 12.4%;
+    transform: translateY(-45%);
+    z-index: 3;
+    text-align: left;
+}
+
+.hero-right {
+    position: absolute;
+    top: 62%;
+    right: 49%;
+    transform: translateY(-50%);
+    z-index: 3;
+    text-align: left;
+}
+
+.hero-globe {
+    position: absolute;
+    top: 41%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: auto;
+    z-index: 1;
+    filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.7));
+    opacity: 0.95;
+}
+
+@keyframes rotate-globe {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.hero-title {
+    font-size: 5.2rem;
+    font-weight: 900;
+    line-height: 1.2;
+    background: linear-gradient(to right, #00d4ff, #00aaff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Hero Subtitle Styling */
+.hero-subtitle {
+    font-size: 1.4rem; 
+    color: #f5f5f5; 
+    line-height: 1.5; 
+    text-align: left;
+    max-width: 600px; 
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); 
+    padding: 1rem; 
+    margin-left: 20px; 
+}
+
+/* Responsiveness */
+
+/* (768px and below) */
+@media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      height: auto; 
+      padding: 2rem 1rem; 
+    }
+  
+    .hero-left, 
+    .hero-right, 
+    .hero-globe {
+      position: static; 
+      transform: none; 
+      margin: 0 auto; 
+    }
+  
+    .hero-left {
+      order: 1; 
+      text-align: center;
+      margin-bottom: 1rem; 
+    }
+  
+    .hero-title {
+      font-size: 2.8rem;
+      line-height: 1.2;
+    }
+  
+    .hero-globe {
+      order: 2; 
+      width: 70%; 
+      max-width: 300px; 
+      margin: 1rem auto; 
+    }
+  
+    .hero-right {
+      order: 3; 
+      text-align: center;
+      font-size: 1.2rem; 
+      max-width: 100%; 
+      margin: 1rem auto;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  /* Mobile (480px and below) */
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 2rem; 
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem; 
+      padding: 0.5rem; 
+    }
+  
+    .hero-globe {
+      width: 60%;
+    }
+  }  
+  
+
+/* Features Section */
+.features {
+    padding: 5rem 2rem;
+    background: #f7f9fb;
+    text-align: center;
+    animation: fade-in 1.5s ease-in-out;
+}
+
+.features h2 {
+    font-size: 2rem;
+    color: #004680;
+    margin-bottom: 3rem;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.feature {
+    max-width: 300px;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.feature img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* CTA Section */
+.cta {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #044479, #083d47);
+    color: white;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.cta .btn {
+    padding: 1rem 2rem;
+}
+
+/* Trust Section */
+.why-trust-us {
+    padding: 5rem 2rem;
+    background: #101820; 
+    text-align: center;
+    color: #ffffff;
+}
+
+.why-trust-us h2 {
+    font-size: 2rem;
+    color: #00d4ff;
+    margin-bottom: 2rem;
+}
+
+.trust-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap; 
+}
+
+.trust-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    max-width: 300px;
+    flex: 1 1 300px;
+    text-align: left;
+    color: #101820;
+}
+
+.trust-card p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.desc {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background: #09687b;
+}
+
+/* Footer */
+footer {
+    background: #101820;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Fade-in animation */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Dashboard Styles */
+.dashboard {
+    margin: 2rem auto;
+    text-align: center;
+    color: #f7f7f7;
+}
+  
+.welcome {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+  
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+  
+
+/* Weekly Progress Section */
+.weekly-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.progress-text h3 {
+    font-size: 1.8rem;
+    color: #00d4ff;
+    margin-bottom: 0.5rem;
+}
+
+.progress-text p {
+    font-size: 1.2rem;
+    color: #f7f7f7;
+    margin-bottom: 1.5rem;
+}
+
+.bar-graph {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.bar {
+    width: 40px;
+    background: linear-gradient(to top, #0c5ed1, #00d4ff);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bar:hover {
+    transform: scale(1.1);
+}
+
+/* Modules Page Styles */
+.modules {
+    margin: 2rem auto;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+.modules-header {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem 0 1rem;
+    color: #00d4ff;
+    text-shadow: 0 2px 10px rgba(0, 212, 255, 0.7);
+}
+
+.module-list {
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+.module {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    width: 80%;
+    margin: 0 auto 1.5rem auto;
+    position: relative;
+}
+
+.module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.module-header h3 {
+    color: #f7f7f7;
+}
+
+.module-header button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.module-header button:focus {
+    outline: none;
+}
+
+.module-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.module-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.module-content ul li {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #ddd;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.module-content ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #00d4ff;
+}
+
+.module-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* Open each module */
+.module.open .module-content {
+    max-height: 500px; 
+}
+
+.module.open .module-header button {
+    transform: rotate(180deg);
+}
+
+
+/* User Stats Section */
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem auto;
+    text-align: center;
+  }
+  
+  .stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 180px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .stat-card img {
+    width: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .stat-card h3 {
+    font-size: 2rem;
+    color: #00d4ff;
+  }
+  
+  .stat-card p {
+    font-size: 1rem;
+    color: #f7f7f7;
+  }
+  
+  /* Motivation Section */
+  .motivation {
+    background: linear-gradient(90deg, #0c5ed1, #00d4ff);
+    color: #fff;
+    border-radius: 10px;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .motivation h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .motivation p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Animated Progress Bar */
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #0c5ed1, #00d4ff);
+    border-radius: 10px;
+    animation: progress-animation 1.5s ease-in-out;
+  }
+  
+  @keyframes progress-animation {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%;
+    }
+  }
+
+   /*carousel*/
+   #ModuleCarousel .text-center.mb-4 {
+    /* Your styles here */
+    color: white
+   
+}
+
+.module-content ul li {
+    color: white;
+}
+
+
+.module-content ul li a {
+    color: white; 
+    text-decoration: none;
+}
+.phishing {
+    margin-bottom: 20px; 
+}
+ 

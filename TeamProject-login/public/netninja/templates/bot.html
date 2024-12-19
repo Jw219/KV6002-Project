@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <!-- Update the static paths using Flask's url_for -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='botstyle.css') }}">
+</head>
+<body>
+    <div id="chatbot-container">
+        <button id="chatbot-toggle" onclick="toggleChatbot()">💬</button>
+        <div id="chatbot-box">
+            <div id="chatbot-header">
+                <h4>Net Ninja Helper</h4>
+                <button id="close-chatbot" onclick="toggleChatbot()">✖</button>
+            </div>
+            <div id="chatbot-messages">
+                <div class="welcome">
+                    Hello! Welcome to your Net Ninja Helper. Please enter your question below.
+                </div>
+            </div>
+            <div id="chatbot-input">
+                <textarea id="query" placeholder="Type your message..."></textarea>
+                <button id="send" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    <!-- Update the static paths using Flask's url_for -->
+    <script src="{{ url_for('static', filename='botscript.js') }}"></script>
+</body>
+</html>

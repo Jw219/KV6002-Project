@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+    <!-- NET NINJA Link -->
+    <a href="http://localhost:5001/netninja/home.html" class="logo">NET NINJA</a>
+
+    <!-- Login Form -->
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm" action="/login" method="POST">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <p class="forgot-password"><a href="reset.html">Forgot password?</a></p>
+            <button type="submit">Login</button>
+        </form>
+
+        <!-- Message and Link to Registration -->
+        <p class="register-message">Not a user? <a href="http://localhost:5000">Sign up</a></p>
+        
+        <!-- Error message display -->
+        <p id="error-message"></p>
+    </div>
+
+    <script src="log.js"></script>
+</body>
+</html>
+

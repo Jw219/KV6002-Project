@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cybersecurity Learning Platform</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header d-flex justify-content-between align-items-center p-3 bg-dark text-white">
+    <a href="home.html" class="logo-link">
+      <h1 class="logo">NET NINJA</h1>
+    </a>
+    <div class="auth-buttons">
+      <a href="home.html" class="btn btn-secondary">Log Out</a>
+    </div>
+  </header>
+
+  <!-- Modules Carousel -->
+  <section class="ModuleCarousel" id="ModuleCarousel">
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Cyber Security Threats</h2>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          
+        </ol>
+        <div class="carousel-inner">
+          <!-- Module 1 -->
+          <div class="carousel-item active">
+            <div class="card">
+              <img class="card-img-top" src="Module1\CyberSecurityThreats/CST_1.JPG" alt="Slide 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Cyber Security Threats</h5>
+                <p class="card-text">Learn about the basic threats within cybersecurity, including key concepts and common threats. Click through to start.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Module 2 -->
+          <div class="carousel-item">
+            <div class="card">
+              <img class="card-img-top" src="Module1\CyberSecurityThreats/CST_2.JPG" alt="Slide 2">
+              <div class="card-body text-center">
+                <h5 class="card-title">Cyber Security Threats</h5>
+                <p class="card-text">Learn about the basic threats within cybersecurity, including key concepts and common threats.</p>
+             </div>
+            </div>
+          </div>
+          <!-- Module 3 -->
+          <div class="carousel-item">
+            <div class="card">
+              <img class="card-img-top" src="Module1\CyberSecurityThreats/CST_3.JPG" alt="Slide 3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Cyber Security Threats</h5>
+                <p class="card-text">Learn about the basic threats within cybersecurity, including key concepts and common threats.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Module 4 -->
+          <div class="carousel-item">
+            <div class="card">
+              <img class="card-img-top" src="Module1\CyberSecurityThreats/CST_4.JPG" alt="Slide 4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Cyber Security Threats</h5>
+                <p class="card-text">Learn about the basic threats within cybersecurity, including key concepts and common threats.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Module 5 -->
+          <div class="carousel-item">
+            <div class="card">
+              <img class="card-img-top" src="Module1\CyberSecurityThreats/CST_5.JPG" alt="Slide 5">
+              <div class="card-body text-center">
+                <h5 class="card-title">Cyber Security Threats</h5>
+                <p class="card-text">Learn about the basic threats within cybersecurity, including key concepts and common threats.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Module 6 -->
+          <div class="carousel-item">
+            <div class="card">
+              <img class="card-img-top" src="Module1\CyberSecurityThreats/CST_6.JPG" alt="Slide 6">
+              <div class="card-body text-center">
+                <h5 class="card-title">Cyber Security Threats</h5>
+                <p class="card-text">Learn about the basic threats within cybersecurity, including key concepts and common threats.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quiz Section -->
+<section class="quiz-section bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Test Your Knowledge: Cyber Security Threats</h2>
+      <form id="quizForm" class="p-4 border rounded bg-white">
+        
+        <!-- Question 1 -->
+        <div class="form-group">
+          <label for="quizQuestion1"><strong>Question 1:</strong> Which of the following is a common example of a phishing attack?</label>
+          <div class="mt-3">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer1" id="answer1A" value="A">
+              <label class="form-check-label" for="answer1A">
+                A) Sending a fake email that looks like it's from your bank to steal your login details.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer1" id="answer1B" value="B">
+              <label class="form-check-label" for="answer1B">
+                B) A virus that damages your files and software.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer1" id="answer1C" value="C">
+              <label class="form-check-label" for="answer1C">
+                C) A hacker intercepting your communication over a secure network.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer1" id="answer1D" value="D">
+              <label class="form-check-label" for="answer1D">
+                D) A ransomware virus that locks your computer until you pay a ransom.
+              </label>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="form-group">
+          <label for="quizQuestion2"><strong>Question 2:</strong> What does ransomware typically do?</label>
+          <div class="mt-3">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer2" id="answer2A" value="A">
+              <label class="form-check-label" for="answer2A">
+                A) It slows down your computer to an unusable state.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer2" id="answer2B" value="B">
+              <label class="form-check-label" for="answer2B">
+                B) It encrypts your files and demands a ransom for their release.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer2" id="answer2C" value="C">
+              <label class="form-check-label" for="answer2C">
+                C) It uses up your internet bandwidth to cause a system outage.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer2" id="answer2D" value="D">
+              <label class="form-check-label" for="answer2D">
+                D) It installs a backdoor to allow hackers to access your data remotely.
+              </label>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Question 3 -->
+        <div class="form-group">
+          <label for="quizQuestion3"><strong>Question 3:</strong> How can you protect yourself from a Denial of Service (DoS) attack?</label>
+          <div class="mt-3">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer3" id="answer3A" value="A">
+              <label class="form-check-label" for="answer3A">
+                A) Install firewall software to block unauthorized traffic.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer3" id="answer3B" value="B">
+              <label class="form-check-label" for="answer3B">
+                B) Only use encrypted connections.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer3" id="answer3C" value="C">
+              <label class="form-check-label" for="answer3C">
+                C) Keep your antivirus software updated.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="quizAnswer3" id="answer3D" value="D">
+              <label class="form-check-label" for="answer3D">
+                D) Backup your data regularly.
+              </label>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Submit Button -->
+        <button type="button" class="btn btn-primary mt-4" id="submitQuiz">Submit Answer</button>
+      </form>
+  
+      <!-- Result Section -->
+      <div id="quizResult" class="mt-4" style="display: none;">
+        <h3>Quiz Results:</h3>
+        <p id="result1"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    // Correct answers
+    const correctAnswers = {
+      1: "A",
+      2: "B",
+      3: "A"
+    };
+  
+    // Function to check answers and display results
+    document.getElementById('submitQuiz').addEventListener('click', function () {
+      let score = 0;
+  
+      // Check answers for each question
+      for (let i = 1; i <= 3; i++) {
+        const selectedAnswer = document.querySelector(`input[name="quizAnswer${i}"]:checked`);
+        
+        if (selectedAnswer) {
+          const answerValue = selectedAnswer.value;
+          if (answerValue === correctAnswers[i]) {
+            score++;
+            document.getElementById(`result${i}`).innerHTML = `Question ${i}: Correct!`;
+          } else {
+            document.getElementById(`result${i}`).innerHTML = `Question ${i}: Incorrect. The correct answer is ${correctAnswers[i]}.`;
+          }
+        } else {
+          document.getElementById(`result${i}`).innerHTML = `Question ${i}: No answer selected.`;
+        }
+      }
+  
+      // Display result section
+      document.getElementById('quizResult').style.display = 'block';
+    });
+  </script>
+  
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Net Ninja. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
