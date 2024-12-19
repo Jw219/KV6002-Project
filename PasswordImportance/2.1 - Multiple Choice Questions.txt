@@ -1,0 +1,32 @@
+### Passwords and Their Importance ###
+Multiple Choice Questions (MCQs)
+Question 1:
+Why is it important to use strong passwords?
+
+A) They are easier to remember
+B) They help protect sensitive information from unauthorized access
+C) They allow you to access accounts faster
+D) They are required by social media platforms
+
+Answer: B) They help protect sensitive information from unauthorized access
+
+Question 2:
+Which of the following is an example of a strong password?
+
+A) "12345678"
+B) "password123"
+C) "A!3d$W@9hR1"
+D) "qwerty"
+
+Answer: C) "A!3d$W@9hR1"
+
+Question 3:
+What is the purpose of Two-Factor Authentication (2FA)?
+
+A) To create stronger passwords
+B) To verify your identity using two different methods
+C) To make passwords easier to remember
+D) To protect against email spam
+
+Answer: B) To verify your identity using two different methods
+
