@@ -1,0 +1,29 @@
+### Password MGMT for Individuals ###
+Multiple Choice Questions (MCQs)
+Question 1: Which of the following is the best practice for creating a strong password?
+
+A) Use your name and birthdate combined.
+B) Use at least 12 characters and mix uppercase, lowercase, numbers, and special characters.
+C) Use the same password for all your accounts for convenience.
+D) Use common words like "password" or "qwerty" for easy recall.
+
+Answer: B) Use at least 12 characters and mix uppercase, lowercase, numbers, and special characters.
+
+Question 2: What is the main advantage of using a password manager?
+
+A) It automatically changes your passwords every month.
+B) It generates and securely stores unique passwords for each account.
+C) It provides customer support for all your online services.
+D) It helps you remember the passwords for your social media accounts only.
+
+Answer: B) It generates and securely stores unique passwords for each account.
+
+Question 3: What is the purpose of two-factor authentication (2FA)?
+
+A) To automatically reset your password.
+B) To add an extra layer of security by requiring a second verification step.
+C) To make it easier to remember passwords.
+D) To store all your passwords in a secure vault.
+
+Answer: B) To add an extra layer of security by requiring a second verification step.
+
