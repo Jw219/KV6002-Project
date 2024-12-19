@@ -1,0 +1,28 @@
+### MFA and Why it Matters? ###
+Multiple Choice Questions (MCQs)
+Question 1:
+What is Multi-Factor Authentication (MFA)?
+A) A security method that requires only a password to authenticate a user.
+B) A security method that uses multiple layers of verification to authenticate a user.
+C) A method of verifying users based only on location.
+D) A method of verifying users using social media accounts.
+
+Answer: B) A security method that uses multiple layers of verification to authenticate a user.
+
+Question 2:
+Which of the following is NOT an example of a multi-factor authentication factor?
+A) Password
+B) Security token
+C) SMS code
+D) Social media username
+
+Answer: D) Social media username
+
+Question 3:
+What is one of the main reasons why Multi-Factor Authentication (MFA) is important?
+A) It makes logging in faster.
+B) It helps prevent unauthorized access even if the password is compromised.
+C) It allows users to share passwords more easily.
+D) It allows users to avoid using passwords altogether.
+
+Answer: B) It helps prevent unauthorized access even if the password is compromised.
