@@ -1,0 +1,28 @@
+### Password Myths and Misconceptions ###
+Multiple Choice Questions (MCQs)
+Question 1: Which of the following is NOT a recommended practice for creating strong passwords?
+
+A) Use a password that is at least 12 characters long and combines uppercase and lowercase letters, numbers, and special characters.
+B) Use a simple phrase or sentence that is easy to remember, like “I_love_pizza_123”.
+C) Reuse the same password across multiple sites to make it easier to remember.
+D) Use a passphrase or a random sequence of words to create a longer, stronger password.
+
+Answer: C) Reuse the same password across multiple sites to make it easier to remember.
+
+Question 2: What is the most secure method of handling multiple passwords for different online accounts?
+
+A) Write them down on a piece of paper in a safe place.
+B) Use a password manager to store and generate unique passwords.
+C) Use the same password for all accounts.
+D) Use only random characters without any specific structure.
+
+Answer: B) Use a password manager to store and generate unique passwords.
+
+Question 3: Why should organizations avoid relying on just strong passwords without two-factor authentication (2FA)?
+
+A) Because strong passwords are no longer needed when using 2FA.
+B) Because 2FA adds an additional layer of security, preventing unauthorized access even if the password is compromised.
+C) Because 2FA is only necessary for government organizations.
+D) Because strong passwords can always prevent cyberattacks.
+
+Answer: B) Because 2FA adds an additional layer of security, preventing unauthorized access even if the password is compromised.
